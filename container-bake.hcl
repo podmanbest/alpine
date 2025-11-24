@@ -1,5 +1,5 @@
 variable "ALPINE_REPO" {
-  default = "tonistiigi/alpine"
+  default = "asepdevops/alpine"
 }
 
 target "default" {
