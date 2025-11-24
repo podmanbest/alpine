@@ -4,7 +4,7 @@ Supports RiscV64 on edge version.
 
 ```bash
 # podman build -t alpine:latest .
-# docker run -it --rm --platform=linux/riscv64 asepdevops/alpine
+# podman run -it --rm --platform=linux/riscv64 asepdevops/alpine
 / # apk add file
 fetch https://dl-cdn.alpinelinux.org/alpine/edge/main/riscv64/APKINDEX.tar.gz
 (1/2) Installing libmagic (5.40-r1)
